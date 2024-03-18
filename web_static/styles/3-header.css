@@ -1,0 +1,17 @@
+header {
+    background-color: #ff0000;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px #CCCCCC solid;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+    width: 142px;
+    
+    background-image: url(../images/logo.png);
+}

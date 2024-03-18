@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Josiah Praise" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/4-common.css" />
+    <link rel="stylesheet" href="styles/3-header.css" />
+    <link rel="stylesheet" href="styles/6-filters.css" />
+    <link rel="stylesheet" href="styles/3-footer.css" />
+    <link rel="stylesheet" href="styles/7-places.css" />
+    <link rel="icon" href="images/icon.png" type="image/png" />
+    <title>AirBnb Clone</title>
+  </head>
+  <body>
+    <!-- LOGO -->
+    <header>
+      <div class="logo"></div>
+    </header>
+
+    <!-- MAIN -->
+    <div class="container">
+      <!-- FILTERS -->
+      <section class="filters">
+        <button type="submit">Search</button>
+
+        <!-- AMENITIES -->
+        <div class="amenities flex flex_horz flex_col">
+          <h3 class="filter__h3">Amenities</h3>
+          <h4 class="filter__h4">Food and water</h4>
+
+          <ul class="popover amenities_popover">
+            <li>TV</li>
+            <li>Park</li>
+            <li>Casino</li>
+            <li>Bar</li>
+          </ul>
+        </div>
+
+        <!-- LOCATIONS -->
+        <div class="locations flex flex_horz flex_col">
+          <h3 class="filter__h3">States</h3>
+          <h4 class="filter__h4">New York</h4>
+
+          <ul class="popover locations_popover">
+            <li>
+              <h2 class="state_name">Lagos:</h2>
+              <ul>
+                <li>Ikeja</li>
+                <li>Ayobo</li>
+              </ul>
+            </li>
+            <li>
+              <h2 class="state_name">Abia:</h2>
+              <ul>
+                <li>Ikeja</li>
+                <li>Ayobo</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- PLACES -->
+      <section class="places">
+        <h1 class="places_h1">Places</h1>
+
+        <section class="places_listings_con">
+          <!-- PLACE LISTINGS -->
+          <article class="places_article">
+            <h2 class="places_article_h2">Kamakazi</h2>
+          </article>
+
+          <article class="places_article">
+            <h2 class="places_article_h2">Kamakazi</h2>
+          </article>
+
+          <article class="places_article">
+            <h2 class="places_article_h2">Kamakazi</h2>
+          </article>
+        </section>
+      </section>
+    </div>
+    <footer>Best School</footer>
+  </body>
+</html>
